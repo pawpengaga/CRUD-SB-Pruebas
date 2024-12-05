@@ -19,3 +19,7 @@ Un sistema web de gestion de DVD's musicales
 
 - /templates/: Contiene los archivos HTML
 - /static/: Contiente los css, js y las imagenes
+
+### Investigar
+
+- ModelAndView

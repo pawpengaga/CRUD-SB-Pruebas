@@ -1,4 +1,4 @@
-package com.pawpengaga.modelo;
+package com.pawpengaga.main.modelo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,7 @@ public class Dvd {
 
   // Puede existir mas a futuro una List<Cancion> canciones
 
-  private String id;
+  private int id;
   private String nombre;
   private String artista;
   private String anio_lanzamiento;
