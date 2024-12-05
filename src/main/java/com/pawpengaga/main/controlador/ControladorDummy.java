@@ -19,14 +19,13 @@ public class ControladorDummy {
   @GetMapping("/listar")
   public ModelAndView inicio(){
     ModelAndView mav = new ModelAndView("listadoDvd");
+    mav.addObject("listado", listadoDvd); // Un simil de .setAttribute() de los Servlets
     return mav;
   }
 
-  @GetMapping("otro")
-  public String otro(){
-
-    return "listadoDvd";
-
+  @GetMapping("/agregar")
+  public String nuevo(){
+    return "nuevoDvd";
   }
 
 

@@ -23,3 +23,7 @@ Un sistema web de gestion de DVD's musicales
 ### Investigar
 
 - ModelAndView
+
+### Errores conocidos
+
+- Usar siempre la jerarquia descendente desde el controlador creado al momento de hacer el proyecto... (En este caso todos los paquetes deben venir de .main)
