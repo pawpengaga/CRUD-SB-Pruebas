@@ -35,6 +35,7 @@
     <h1>Nuevo DVD</h1>
     <section id="form-section">
 
+      <!-- th:object va ligado al @ModelAttribute en el controlador, al objeto DVD vaya -->
       <form th:action="@{/dvd/grabar}" th:object="${Dvd}" method="POST">
         <div class="mb-3">
           <label for="id" class="form-label">Id</label>
