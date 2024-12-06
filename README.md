@@ -15,6 +15,10 @@ Un sistema web de gestion de DVD's musicales
 - Crear los modelos
 - Etc
 
+## Hitos
+
+1. Crear un programa capaz de registrar en memoria temporal y listar una serie de objetos `Dvd`
+
 ### Estructura
 
 - /templates/: Contiene los archivos HTML
